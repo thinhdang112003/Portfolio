@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio | Quoc Dang</title>
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Quoc Thinh Dang</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Welcome, I'm Quoc Thinh Dang</h1>
+            <h3>Undergraduate Student</h3>
+            <p>I'm a Junior Student at UMD, majoring in Computer Science and Mathematics. 
+                My passion is coding and learning different programming languages.</p>
+
+            <div class="home-img">
+               <img src="images/IMG_6055 2.JPG" alt="Quoc Dang" width="400px">
+            </div>        
+            <a href="2023Resume-2.pdf" class="btn">Download CV</a>        
+            
+            <div class="social-media">
+                <a href="https://www.facebook.com/dang.thinh.88/"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/danny.11.03/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/thinh-dang-695171265/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/IMG_5636.JPG" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Undergraduate Student</h3>
+            <p>Greetings! I'm a college student on a thrilling academic journey, delving Into the realms of both computer science and mathematics. 
+                The fusion of those two disciplines ignites my passion for problem-solving and algorithmic thinking. 
+                As a curious mind navigating the intricacies of coding and mathematical abstraction. I'm constantly seeking the elegant synorgy between logic and creativity. 
+                My academic pursuits extend beyond the confines of the classroom, as I am dedicatod to exploring the profound connections between theoretical concepts and real-world applications.
+                My ultimate goal is to develop software that positively impacts people's lives and solves problems for businesses and society at large.</p>
+        </div>
+    </section>
+
+    <!-- Education section design -->
+    <section class="education" id="education">
+        <h2 class="heading">My<span> Courework</span></h2>
+
+        <div class="education-container">
+            <div class="education-box">
+                <img src="images/Math.jpg.webp" alt="">
+                <div class="education-layer">
+                    <h4>MAT-212: Differential Equations</h4>
+                    <p>Analyze and solve ordinary differential equations of various types: separable, exact, linear equations of all orders and systems of linear equations. Master techniques including integrating factors, undetermined coefficients, the Wronskian, variation of parameters, reduction of order, power series, Laplace transforms and numerical approximations.</p>
+                </div>
+            </div>
+
+            <div class="education-box">
+                <img src="images/board-935455_640.jpg" alt="">
+                <div class="education-layer">
+                    <h4>MAT-201: Calculus & Analytic Geom 3</h4>
+                    <p>Extend the ideas of limits, differentiation and integration to two or more dimensions. Study vectors and vector functions, partial differentiation, gradients, directional derivatives and tangent planes, optimization, Lagrange multipliers, iterated integration, line and surface integrals, and the classical theorems of Green, Gauss and Stokes.</p>
+                </div>
+            </div>
+
+            <div class="education-box">
+                <img src="images/mathematics-writing-hand-notebook-6961680-1.jpg.webp" alt="">
+                <div class="education-layer">
+                    <h4>MATH-401: Applications of Linear Algebra</h4>
+                    <p>Various applications of linear algebra: theory of finite games, linear programming, matrix methods as applied to finite Markov chains, random walk, incidence matrices, graphs and directed graphs, networks and transportation problems.</p>
+                </div>
+            </div>
+
+            <div class="education-box">
+                <img src="images/portfolio4.jpg" alt="">
+                <div class="education-layer">
+                    <h4>CMSC-131: Object-Oriented Programming I</h4>
+                    <p>Develop skills such as program design and testing as well as the implementation of programs using a graphical IDE. </p>
+                </div>
+            </div>
+
+            <div class="education-box">
+                <img src="images/statistics-m-b-m-795202-unsplash.jpg" alt="">
+                <div class="education-layer">
+                    <h4>STAT-400: Applied Probability and Statistics I</h4>
+                    <p>STAT-400 is an introductory course to probability, the mathematical theory of randomness, and to statistics, the mathematical science of data analysis and analysis in the presence of uncertainty. Applications of statistics and probability to real world problems are also presented.</p>
+                </div>
+            </div>
+
+            <div class="education-box">
+                <img src="images/portfolio2.jpg" alt="">
+                <div class="education-layer">
+                    <h4>MAT-250: Discrete Structure</h4>
+                    <p>Fundamental mathematical concepts related to computer science, including finite and infinite sets, relations, functions, and propositional logic. Introduction to other techniques, modeling and solving problems in computer science. Introduction to permutations, combinations, graphs, and trees with selected applications.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="sendmail.php" method="post">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Quoc Dang | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
